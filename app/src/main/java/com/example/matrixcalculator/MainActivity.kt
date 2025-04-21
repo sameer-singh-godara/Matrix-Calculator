@@ -189,6 +189,8 @@ class MainActivity : AppCompatActivity() {
                 val textView = TextView(this)
                 textView.layoutParams = TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 1f)
                 textView.text = String.format("%.2f", result[i * cols + j])
+                textView.setPadding(8, 8, 8, 8) // Add padding for better spacing
+                textView.setBackgroundResource(android.R.drawable.list_selector_background) // Simple border effect
                 row.addView(textView)
             }
             table.addView(row)
