@@ -31,7 +31,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="Rows"
-                android:inputType="numberDecimal" />
+                android:inputType="number" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -45,7 +45,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="Columns"
-                android:inputType="numberDecimal" />
+                android:inputType="number" />
         </LinearLayout>
 
         <Button
@@ -84,7 +84,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="Rows"
-                android:inputType="numberDecimal" />
+                android:inputType="number" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -98,7 +98,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:hint="Columns"
-                android:inputType="numberDecimal" />
+                android:inputType="number" />
         </LinearLayout>
 
         <Button

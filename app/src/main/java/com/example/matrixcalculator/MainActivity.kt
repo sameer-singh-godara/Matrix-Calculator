@@ -63,16 +63,28 @@ class MainActivity : AppCompatActivity() {
         setDim1Button.setOnClickListener {
             rows1 = rows1Input.text.toString().toIntOrNull() ?: 0
             cols1 = cols1Input.text.toString().toIntOrNull() ?: 0
+            if (rows1 > 10 || cols1 > 10) {
+                Toast.makeText(this, "Rows and columns must not exceed 10", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
             if (rows1 > 0 && cols1 > 0) {
                 updateTable(matrix1Table, rows1, cols1)
+            } else {
+                Toast.makeText(this, "Please enter valid dimensions (1-10)", Toast.LENGTH_SHORT).show()
             }
         }
 
         setDim2Button.setOnClickListener {
             rows2 = rows2Input.text.toString().toIntOrNull() ?: 0
             cols2 = cols2Input.text.toString().toIntOrNull() ?: 0
+            if (rows2 > 10 || cols2 > 10) {
+                Toast.makeText(this, "Rows and columns must not exceed 10", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
             if (rows2 > 0 && cols2 > 0) {
                 updateTable(matrix2Table, rows2, cols2)
+            } else {
+                Toast.makeText(this, "Please enter valid dimensions (1-10)", Toast.LENGTH_SHORT).show()
             }
         }
 
@@ -189,8 +201,8 @@ class MainActivity : AppCompatActivity() {
                 val textView = TextView(this)
                 textView.layoutParams = TableRow.LayoutParams(0, TableRow.LayoutParams.WRAP_CONTENT, 1f)
                 textView.text = String.format("%.2f", result[i * cols + j])
-                textView.setPadding(8, 8, 8, 8) // Add padding for better spacing
-                textView.setBackgroundResource(android.R.drawable.list_selector_background) // Simple border effect
+                textView.setPadding(8, 8, 8, 8)
+                textView.setBackgroundResource(android.R.drawable.list_selector_background)
                 row.addView(textView)
             }
             table.addView(row)
