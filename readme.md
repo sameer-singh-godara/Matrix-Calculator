@@ -5,7 +5,7 @@
 This is an Android application developed in Kotlin for the "Mobile Computing" course, Assignment 3. The app performs matrix operations (addition, subtraction, multiplication, and division) on two matrices with user-defined dimensions, as per the assignment requirements. The matrix computations are implemented in C++ using the `std::vector` library and interfaced with Kotlin via JNI (Java Native Interface). This README documents the implementation details and how the assignment questions have been addressed.
 
 ## GitHub Repository
-- **Link**: [https://github.com/sameer-singh-godara/Matrix-Calculator.git](https://github.com/sameer-singh-godara/Matrix-Calculator)
+- **Link**: [https://github.com/sameer-singh-godara/Matrix-Calculator](https://github.com/sameer-singh-godara/Matrix-Calculator.git)
 - The repository is private; please ensure access is granted to the instructor via GitHub for evaluation.
 
 ## Implementation Details
@@ -45,5 +45,5 @@ The assignment required a matrix calculator that supports addition, subtraction,
 
 ### Submission
 - **Files Uploaded**: Kotlin sources (`MainActivity.kt`), C++ sources (`native-lib.cpp`, `native-lib.h`), XML layout (`activity_main.xml`), CMake configuration (`CMakeLists.txt`), and this README are committed to the GitHub repository.
-- **Submission Method**: Uploaded to both the Google Classroom and the private GitHub repository [https://github.com/sameer-singh-godara/Matrix-Calculator.git](https://github.com/sameer-singh-godara/Matrix-Calculator).
+- **Submission Method**: Uploaded to both the Google Classroom and the private GitHub repository [https://github.com/sameer-singh-godara/Matrix-Calculator](https://github.com/sameer-singh-godara/Matrix-Calculator.git).
 
