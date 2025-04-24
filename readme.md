@@ -45,5 +45,5 @@ The assignment required a matrix calculator that supports addition, subtraction,
 
 ### Submission
 - **Files Uploaded**: Kotlin sources (`MainActivity.kt`), C++ sources (`native-lib.cpp`, `native-lib.h`), XML layout (`activity_main.xml`), CMake configuration (`CMakeLists.txt`), and this README are committed to the GitHub repository.
-- **Submission Method**: Uploaded to both the course management system (e.g., Google Classroom) and the private GitHub repository [https://github.com/sameer-singh-godara/Matrix-Calculator.git](https://github.com/sameer-singh-godara/Matrix-Calculator.git).
+- **Submission Method**: Uploaded to both the Google Classroom and the private GitHub repository [https://github.com/sameer-singh-godara/Matrix-Calculator.git](https://github.com/sameer-singh-godara/Matrix-Calculator.git).
 
